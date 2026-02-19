@@ -1,0 +1,21 @@
+|SeqDet1101
+y <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+Q1 => inst3.IN0
+Q1 => inst4.IN0
+Q1 => inst2.IN0
+Q1 => inst20.IN0
+Q1 => inst.IN0
+Q0 => inst3.IN1
+Q0 => inst17.IN0
+Q0 => inst16.IN0
+Q0 => inst5.IN1
+Q0 => inst19.IN0
+x => inst3.IN2
+x => inst18.IN0
+x => inst2.IN2
+x => inst8.IN1
+x => inst5.IN2
+clk => inst14.LATCH_ENABLE
+clk => inst15.LATCH_ENABLE
+
+

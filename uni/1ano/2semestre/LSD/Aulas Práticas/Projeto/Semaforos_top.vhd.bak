@@ -1,0 +1,19 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity Semaforos_top is
+    port(CLOCK_50    : in  std_logic;
+          KEY            : in  std_logic_vector(0 downto 0);
+          SW            : in  std_logic_vector(0 downto 0);
+          LEDR        : out std_logic_vector(17 downto 0));
+end Semaforos_top;
+
+architecture Shell of Semaforos_top is
+
+    signal s_clk1Hz : std_logic;
+
+begin
+    clk_div_1hz : entity work.ClkDividerN(RTL)
+        generic map(divFactor => 50000000)
+        port map(clkIn             => CLOCK_50,
+                 clkOut         => s_clk1Hz);

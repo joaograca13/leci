@@ -1,0 +1,19 @@
+|RegN
+clk => reg_value[0].CLK
+clk => reg_value[1].CLK
+clk => reg_value[2].CLK
+clk => reg_value[3].CLK
+rst => reg_value[0].ACLR
+rst => reg_value[1].ACLR
+rst => reg_value[2].ACLR
+rst => reg_value[3].ACLR
+D[0] => reg_value[0].DATAIN
+D[1] => reg_value[1].DATAIN
+D[2] => reg_value[2].DATAIN
+D[3] => reg_value[3].DATAIN
+Q[0] <= reg_value[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= reg_value[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= reg_value[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= reg_value[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

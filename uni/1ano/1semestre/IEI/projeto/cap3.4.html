@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <title>Sobre</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body style="background-image: url('imagens/imagemcap4.png'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center;">
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Introdução</a></li>
+            <li class="dropdown">
+                <a href="cap1.html" class="dropbtn">Deficiência e aperfeiçoamento</a>
+            </li>
+            <li class="dropdown">
+                <a href="cap2.html" class="dropbtn">Objeções ao aperfeiçoamento</a>
+                <div class="dropdown-content">
+                    <a href="cap2.1.html">As dúvidas sobre a segurança dos procedimentos</a>
+                    <a href="cap2.2.html">O que é natural deve ter prioridade sobre o artificial</a>
+                    <a href="cap2.3.html">O dever de não tentar aperfeiçoar a natureza humana é muito discutível</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="cap3.html" class="dropbtn">A Ilusão do Controle</a>
+                <div class="dropdown-content">
+                    <a href="cap3.1.html">Os músculos</a>
+                    <a href="cap3.2.html">A memória e a inteligência</a>
+                    <a href="cap3.3.html">A altura</a>
+                    <a href="cap3.4.html">A escolha do sexo</a>
+                    <a href="cap3.5.html">Alterar a natureza é enfraquecer a humildade</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="cap4.html" class="dropbtn">O Limite da Evolução</a>
+                <div class="dropdown-content">
+                    <a href="cap4.1.html">A humanidade que somos e a que poderemos ser</a>
+                    <a href="cap4.2.html">Mais inteligentes e concentrados</a>
+                    <a href="cap4.3.html">Tipos de humanidade</a>
+                </div>
+            </li>
+            <li><a href="about.html">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="w3-container w3-red w3-center" style="padding:128px 16px; background-color:#000000 !important">
+        <h1 class="w3-margin w3-jumbo">Capítulo 4.4</h1>
+        <p class="w3-xlarge">A escolha do sexo</p>
+    </header>
+
+    <div style="width: 100%;">
+        <a class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-right" href="cap3.5.html">Seguinte</a>
+        <a class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-left" href="cap3.3.html">Anterior</a>
+    </div>
+    
+    <!-- First Grid -->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content"; style="color: white;">
+            <div class="w3-twothird">
+                <h1>A escolha do sexo</h1>
+                <h5 class="w3-padding-32">
+                    <!-- Conteúdo do texto omitido para brevidade -->
+                    O uso da técnica não médica da seleção sexual é provavelmente o mais pertur-
+    bador. Durante séculos os pais tentaram escolher o sexo dos seus filhos. Desde
+    a conjugação do ato sexual com a posição da lua, a recomendações de filósofos
+    famosos. Mas, atualmente, as novas tecnologias da biologia podem satisfazer
+    esse desejo. Uma técnica de seleção sexual derivou de testes pré-natais como a
+    amniocentese. Estas tecnologias médicas foram desenvolvidas para detetar ano-
+    malias genéticas, mas também podem revelar o sexo do feto permitindo assim,
+    em princípio, o aborto do feto cujo sexo não é desejado.
+    Outra técnica que favorece a escolha do sexo está associada à fertilização in
+    vitro. Os casais que recorrem a esta técnica têm a opção de escolher o sexo da
+    criança antes de o ovo fertilizado ser inserido no útero.
+    Argumenta-se que a técnica da seleção sexual discriminaria o membros de
+    sexo feminino. Mas suponha-se que essas técnicas seriam empregues numa soci-
+    edade que não favoreceria nenhum sexo. Seria a escolha do sexo ainda objetável?
+    E se fosse possível escolher não só o sexo, mas também a altura, a cor dos olhos,
+    a cor da pele, a orientação sexual, o quociente inteletual, a aptidão musical e as
+    proezas atléticas?
+                </h5>
+
+                <!-- Adicionar o elemento canvas para o gráfico -->
+                <canvas id="fivChart" style="max-width: 100%; height: 400px;"; style="color: white;"></canvas>
+
+                <script>
+                    // Dados do gráfico
+                    const data = {
+                        labels: [2010, 2012, 2014, 2016, 2018, 2020, 2022, 2024], // Eixo X (anos)
+                        datasets: [{
+                            label: 'FIV Treatments', // Legenda da linha
+                            data: [100, 200, 400, 600, 700, 800, 900, 1000], // Valores no eixo Y
+                            borderColor: 'cyan', // Cor da linha
+                            borderWidth: 2,
+                            fill: false, // Sem preenchimento abaixo da linha
+                            tension: 0.1 // Suavidade da linha
+                        }]
+                    };
+
+                    // Configurações do gráfico
+                    const config = {
+                        type: 'line', // Tipo de gráfico
+                        data: data,
+                        options: {
+                            responsive: true,
+                            plugins: {
+                                legend: {
+                                    display: true,
+                                    position: 'top' // Local da legenda
+                                },
+                                title: {
+                                    display: true,
+                                    text: 'FIV Treatments' // Título do gráfico
+                                }
+                            },
+                            scales: {
+                                x: {
+                                    title: {
+                                        display: true,
+                                        text: 'Year' // Título do eixo X
+                                    }
+                                },
+                                y: {
+                                    title: {
+                                        display: true,
+                                        text: 'Number of Treatments' // Título do eixo Y
+                                    },
+                                    suggestedMin: 0,
+                                    suggestedMax: 1000
+                                }
+                            }
+                        }
+                    };
+
+                    // Renderizar o gráfico no canvas
+                    const ctx = document.getElementById('fivChart').getContext('2d');
+                    new Chart(ctx, config);
+                </script>
+
+                <h5>
+                    De acordo com o gráfico anterior, pode-se chegar às seguintes conclusões:
+
+                    <ul><li>Aumento contínuo da FIV: </li></ul> 
+                    Os dados do gráfico mostram um aumento
+                    contínuo no número de tratamentos de FIV entre 2010 e 2024. Em 2010, o
+                    número de tratamentos era de cerca de 100, enquanto em 2024 esse número
+                    chegou a cerca de 950. Este aumento significativo sugere que, à medida
+                    que a tecnologia se torna mais acessível e avançada, mais casais estão a    
+                    optar por tratamentos de fertilização in vitro o que pode ser um reflexo do
+                    crescente interesse por métodos reprodutivos que permitem um controle
+                    maior sobre a gravidez, incluindo a possibilidade de escolher características
+                    como o sexo do bebé.
+                    
+                    <ul><li>Diminuição da popularidade do FIV:</li></ul> 
+                    Apesar da evidente acentuação da reta, pode-se reparar que, a partir de 2020, 
+                    o número de tratamentos por fertilização in vitro diminui, o que sugere a sua 
+                    despopularização. 
+                </h5>
+            </div>
+
+            <div class="w3-third w3-center"></div>
+        </div>
+    </div>
+
+
+</body>
+</html>
+

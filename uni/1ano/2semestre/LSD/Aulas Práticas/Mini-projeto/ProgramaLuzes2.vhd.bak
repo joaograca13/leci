@@ -1,0 +1,23 @@
+library IEEE;
+use IEEE.STD_logic_1164.ALL;
+
+entity ProgramaLuzes2 is
+	port (input : in std_logic_vector(3 downto 0);
+			clk2Hz : in std_logic;
+			LEDR : out std_logic_vector(3 downto 0);
+			LEDG : out std_logic_vector(3 downto 0));
+end entity ProgramaLuzes2;
+
+architecture Behavorial of ProgramaLuzes2 is
+begin
+	process (ClkDivider)
+	begin
+		if input = "0002" then
+			LEDR <= "1111";
+			LEDG <= "1111";
+		else
+			LEDR <= "0000";
+			LEDG <= "0000";
+		end if;
+	end process;
+end architecture Behavorial;

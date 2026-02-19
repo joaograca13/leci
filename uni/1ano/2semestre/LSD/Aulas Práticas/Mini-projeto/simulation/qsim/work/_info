@@ -1,0 +1,214 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/LSD/Mini-projeto/simulation/qsim
+T_opt
+!s110 1744034064
+V^WN>KbFU_BS05TVIZDKTZ0
+04 26 19 work bin7segdecoder_vhd_vec_tst bin7segdecoder_arch 1
+=1-dc4546c5eddd-67f3d90f-2b-35c4
+Z2 !s124 OEM10U2 
+Z3 o-quiet -auto_acc_if_foreign -work work -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1744034511
+VmOQjbo914_eN1b73R1^bN1
+04 20 13 work dec2_4en_vhd_vec_tst dec2_4en_arch 1
+=1-dc4546c5eddd-67f3dace-1d9-47d0
+R2
+R3
+R4
+n@_opt1
+R5
+Ebin7segdecoder
+Z6 w1744034055
+Z7 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z8 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 gn]m8U<PzXZH32IDQ4:hj3
+Z9 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z10 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z11 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z12 DPx10 cycloneive 21 cycloneive_components 0 22 cSe5`^NYM;IRV3WNS^Q7a2
+!i122 0
+R1
+Z13 8projeto1.vho
+Z14 Fprojeto1.vho
+l0
+Z15 L35 1
+V;]lHClm]G<6ESA[en=OB[0
+!s100 Fm7_66o9iXZP26VP>=h=m3
+Z16 OL;C;2021.2;73
+32
+Z17 !s110 1744034061
+!i10b 1
+Z18 !s108 1744034060.000000
+Z19 !s90 -work|work|projeto1.vho|
+Z20 !s107 projeto1.vho|
+!i113 0
+Z21 o-work work
+Z22 tExplicit 1 CvgOpt 0
+Astructure
+R7
+R8
+R9
+R10
+R11
+R12
+DEx4 work 14 bin7segdecoder 0 22 ;]lHClm]G<6ESA[en=OB[0
+!i122 0
+l84
+L43 420
+V`4oW;7odMm<<ZknkQKL=c0
+!s100 gVo=Vj0fk]ZScU`8Jkic@3
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Ebin7segdecoder_vhd_vec_tst
+Z23 w1744034053
+R10
+R11
+!i122 1
+R1
+Z24 8../Waveform.vwf.vht
+Z25 F../Waveform.vwf.vht
+l0
+Z26 L32 1
+VYnO=bg4I=Ca]7ZE>RVH101
+!s100 h5i36]W^]AdJojgWeM8O@3
+R16
+32
+R17
+!i10b 1
+Z27 !s108 1744034061.000000
+Z28 !s90 -work|work|../Waveform.vwf.vht|
+Z29 !s107 ../Waveform.vwf.vht|
+!i113 0
+R21
+R22
+Abin7segdecoder_arch
+R10
+R11
+DEx4 work 26 bin7segdecoder_vhd_vec_tst 0 22 YnO=bg4I=Ca]7ZE>RVH101
+!i122 1
+l47
+L34 79
+Vfn6@aHDRS;QTl_8>oz0DS1
+!s100 JnNz]zYPXhe_739N5ncNM3
+R16
+32
+R17
+!i10b 1
+R27
+R28
+R29
+!i113 0
+R21
+R22
+Edec2_4en
+Z30 w1744034507
+R7
+R8
+R9
+R10
+R11
+R12
+!i122 2
+R1
+R13
+R14
+l0
+R15
+Vg5:deX0;glRaDa^L2OgRR2
+!s100 5a^>PDDWFLSDP_]E]?jH90
+R16
+32
+Z31 !s110 1744034509
+!i10b 1
+Z32 !s108 1744034509.000000
+R19
+R20
+!i113 0
+R21
+R22
+Astructure
+R7
+R8
+R9
+R10
+R11
+R12
+DEx4 work 8 dec2_4en 0 22 g5:deX0;glRaDa^L2OgRR2
+!i122 2
+l64
+L42 131
+VkniHF@H]1Pg33<a^fF2To3
+!s100 abngH7U<bezU^1nWcK5Z21
+R16
+32
+R31
+!i10b 1
+R32
+R19
+R20
+!i113 0
+R21
+R22
+Edec2_4en_vhd_vec_tst
+Z33 w1744034505
+R10
+R11
+!i122 3
+R1
+Z34 8../Waveform1.vwf.vht
+Z35 F../Waveform1.vwf.vht
+l0
+R26
+V=Fcz1LPO@dQF_NOg:L9622
+!s100 GGLn?lDEfWOgHJjmo`<i81
+R16
+32
+R31
+!i10b 1
+R32
+Z36 !s90 -work|work|../Waveform1.vwf.vht|
+Z37 !s107 ../Waveform1.vwf.vht|
+!i113 0
+R21
+R22
+Adec2_4en_arch
+R10
+R11
+DEx4 work 20 dec2_4en_vhd_vec_tst 0 22 =Fcz1LPO@dQF_NOg:L9622
+!i122 3
+l45
+L34 43
+VP:Ll]3WIaO3TcLN;1;L=>3
+!s100 GbDOXoW<aTlQSm^92^faW0
+R16
+32
+R31
+!i10b 1
+R32
+R36
+R37
+!i113 0
+R21
+R22

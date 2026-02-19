@@ -1,0 +1,112 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/LSD/Aula02/Parte04/simulation/qsim
+T_opt
+!s110 1740667778
+VO51ES?4i18N5^fHL^KiPn2
+04 19 12 work penc4_2_vhd_vec_tst penc4_2_arch 1
+=1-dc4546c5eddd-67c07b81-1b2-4924
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Epenc4_2
+Z1 w1740667773
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 gn]m8U<PzXZH32IDQ4:hj3
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 cSe5`^NYM;IRV3WNS^Q7a2
+!i122 0
+R0
+Z8 8PEnc4_2Demo.vho
+Z9 FPEnc4_2Demo.vho
+l0
+L35 1
+VO[6U5dJ5dgf[JDAIcOII00
+!s100 @Q>lk<0i8oBQ<CD_ceaB31
+Z10 OL;C;2021.2;73
+32
+Z11 !s110 1740667776
+!i10b 1
+Z12 !s108 1740667776.000000
+Z13 !s90 -work|work|PEnc4_2Demo.vho|
+Z14 !s107 PEnc4_2Demo.vho|
+!i113 0
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 7 penc4_2 0 22 O[6U5dJ5dgf[JDAIcOII00
+!i122 0
+l68
+L43 159
+ViZR:J7VUGE9a_MKX2?VTz2
+!s100 6^=cZ>CWFk39J97;IKdzK0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Epenc4_2_vhd_vec_tst
+Z17 w1740667772
+R5
+R6
+!i122 1
+R0
+Z18 8Waveform.vwf.vht
+Z19 FWaveform.vwf.vht
+l0
+L32 1
+V^c83on_@zh;X5?c@>Ali30
+!s100 U9:hb8LOR3HPAZbkE2ZM]1
+R10
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -work|work|Waveform.vwf.vht|
+Z21 !s107 Waveform.vwf.vht|
+!i113 0
+R15
+R16
+Apenc4_2_arch
+R5
+R6
+DEx4 work 19 penc4_2_vhd_vec_tst 0 22 ^c83on_@zh;X5?c@>Ali30
+!i122 1
+l47
+L34 68
+VPiRY>QK@3K?kLXd3IYBb62
+!s100 oaTD7F9I63TRfIFJY88da1
+R10
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 0
+R15
+R16

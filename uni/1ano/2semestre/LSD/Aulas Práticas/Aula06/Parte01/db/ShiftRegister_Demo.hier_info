@@ -1,0 +1,16 @@
+|ShiftRegister4
+clk => reg[0].CLK
+clk => reg[1].CLK
+clk => reg[2].CLK
+clk => reg[3].CLK
+rst => reg.OUTPUTSELECT
+rst => reg.OUTPUTSELECT
+rst => reg.OUTPUTSELECT
+rst => reg.OUTPUTSELECT
+din => reg.DATAA
+dout[0] << reg[0].DB_MAX_OUTPUT_PORT_TYPE
+dout[1] << reg[1].DB_MAX_OUTPUT_PORT_TYPE
+dout[2] << reg[2].DB_MAX_OUTPUT_PORT_TYPE
+dout[3] << reg[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

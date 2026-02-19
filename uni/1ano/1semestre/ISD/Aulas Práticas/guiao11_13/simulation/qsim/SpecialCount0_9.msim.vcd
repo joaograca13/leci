@@ -1,0 +1,173 @@
+$comment
+	File created using the following command:
+		vcd file SpecialCount0_9.msim.vcd -direction
+$end
+$date
+	Tue Dec 10 12:10:24 2024
+$end
+$version
+	Questa Intel Starter FPGA Edition Version 2021.2
+$end
+$timescale
+	1ps
+$end
+
+$scope module SpecialCount0_vlg_vec_tst $end
+$var reg 1 ! CLK $end
+$var wire 1 " pin_name1 $end
+$var wire 1 # pin_name3 $end
+$var wire 1 $ pin_name4 $end
+$var wire 1 % pin_name5 $end
+
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , CLK~input_o $end
+$var wire 1 - pin_name1~output_o $end
+$var wire 1 . pin_name3~output_o $end
+$var wire 1 / pin_name4~output_o $end
+$var wire 1 0 pin_name5~output_o $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+1#
+1$
+1%
+0&
+1'
+x(
+1)
+1*
+1+
+0,
+1-
+1.
+1/
+10
+$end
+#25000
+1!
+1,
+#50000
+0!
+0,
+#75000
+1!
+1,
+#100000
+0!
+0,
+#125000
+1!
+1,
+#150000
+0!
+0,
+#175000
+1!
+1,
+#200000
+0!
+0,
+#225000
+1!
+1,
+#250000
+0!
+0,
+#275000
+1!
+1,
+#300000
+0!
+0,
+#325000
+1!
+1,
+#350000
+0!
+0,
+#375000
+1!
+1,
+#400000
+0!
+0,
+#425000
+1!
+1,
+#450000
+0!
+0,
+#475000
+1!
+1,
+#500000
+0!
+0,
+#525000
+1!
+1,
+#550000
+0!
+0,
+#575000
+1!
+1,
+#600000
+0!
+0,
+#625000
+1!
+1,
+#650000
+0!
+0,
+#675000
+1!
+1,
+#700000
+0!
+0,
+#725000
+1!
+1,
+#750000
+0!
+0,
+#775000
+1!
+1,
+#800000
+0!
+0,
+#825000
+1!
+1,
+#850000
+0!
+0,
+#875000
+1!
+1,
+#900000
+0!
+0,
+#925000
+1!
+1,
+#950000
+0!
+0,
+#975000
+1!
+1,
+#1000000

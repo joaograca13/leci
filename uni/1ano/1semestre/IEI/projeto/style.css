@@ -1,0 +1,251 @@
+.w3-bar-item {
+    color: black
+}
+
+.map-container {
+    width: 100%;
+    height: 500px;
+    overflow: auto;
+    border: 1px solid #ccc;
+}
+.iframe {
+    width: 100%;
+    height: 1000px;
+    border: none;
+}
+
+.content {
+    padding: 20px;
+    background-color: #f4f4f4;
+    height: 1500px; /* Adicionando altura extra para permitir rolagem */
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: auto; /* Permite rolagem */
+}
+
+/* Barra de navegação fixa */
+.w3-top {
+    font-size:small;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Assegura que a barra ficará no topo de outros elementos */
+}
+
+/* Ajuste no cabeçalho para que o conteúdo abaixo da barra não fique sobreposto */
+body {
+    padding-top: 50px; /*valor conforme a altura da sua barra de navegação */
+}
+
+/* Corrigir a altura da barra de navegação para garantir o estilo */
+.w3-bar {
+    padding: 8px 16px; 
+}
+
+/*links para a navegação */
+.w3-bar-item {
+    font-size: 18px;
+    padding: 16px;
+}
+
+/* Estilo dos links na navegação */
+.w3-bar-item:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+/* Estilo para o botão de menu no modo mobile */
+.w3-bar-item .fa-bars {
+    color: black;
+}
+
+/* Ajustes responsivos para esconder e mostrar os itens de navegação */
+@media screen and (max-width: 600px) {
+    .w3-bar-item {
+        display: block;
+        text-align: left;
+    }
+    .w3-hide-small {
+        display: none !important;
+    }
+}
+/* Estilos do Dropdown */
+.w3-dropdown-click:hover .w3-dropdown-content {
+    display: block; /* Exibe o dropdown ao passar o mouse */
+}
+
+.w3-dropdown-content {
+    display: none; /* Esconde o conteúdo do dropdown inicialmente */
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px; /* Largura mínima dos itens */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Sombra do dropdown */
+    z-index: 1; /* Garante que o dropdown sobreponha outros elementos */
+}
+/* Ajuste do tamanho da fonte para a barra de navegação */
+.w3-bar-item {
+    font-size: 14px; /* Tamanho da fonte reduzido */
+    padding: 12px 16px; /* Ajuste no padding para manter o espaço confortável */
+}
+
+/* Ajuste adicional para o botão de menu (hamburger) */
+.w3-bar-item {
+    position: relative; text-align: left; /* Importante para o posicionamento do dropdown */
+}
+
+/* Ajustes de estilo para os itens do dropdown */
+.w3-dropdown-content .w3-bar-item {
+    font-size: 13px; /* Tamanho da fonte nos itens do dropdown */
+    padding: 10px 16px; /* Padding ajustado para os itens do dropdown */
+}
+
+/* Estilo de hover para os itens */
+.w3-bar-item:hover, .w3-dropdown-content .w3-bar-item:hover {
+    background-color: #ddd; /* Alteração no fundo ao passar o mouse */
+}
+.w3-dropdown-content {
+    position: absolute; /* Posicionamento absoluto */
+    top: 100%; /* Coloca o dropdown logo abaixo do link */
+    left: 0; /* Alinha o dropdown à esquerda do item */
+}
+
+/* Ajuste da posição do dropdown */
+.w3-dropdown-content {
+    display: none; /* Inicialmente escondido */
+    position: absolute; /* Posicionamento absoluto */
+    top: 100%; /* Coloca o dropdown logo abaixo do link */
+    left: 0; /* Alinha o dropdown à esquerda do item */
+    background-color: #f9f9f9; /* Cor de fundo */
+    min-width: 160px; /* Largura mínima */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Sombra para o dropdown */
+    z-index: 1; /* Garante que o dropdown esteja acima de outros elementos */
+}
+
+/* Exibir o dropdown ao passar o mouse sobre o item */
+.w3-dropdown-click:hover .w3-dropdown-content {
+    display: block; /* Exibe o dropdown ao passar o mouse */
+}
+
+/* Ajustes para os itens dentro do dropdown */
+.w3-dropdown-content .w3-bar-item {
+    font-size: 13px; /* Tamanho da fonte para os itens do dropdown */
+    padding: 10px 16px; /* Padding ajustado */
+}
+
+/* Ajustes para o hover nos itens do dropdown */
+.w3-dropdown-content .w3-bar-item:hover {
+    background-color: #ddd; /* Alteração do fundo quando passa o mouse */
+}
+.w3-dropdown-click:hover .w3-dropdown-content {
+    display: block; /* Exibe o dropdown ao passar o mouse */
+}
+.w3-dropdown-click {
+    position: relative; /* Importante para o posicionamento do dropdown */
+}
+
+.w3-dropdown-content {
+    display: none; /* Inicialmente escondido */
+    position: absolute; /* Posicionamento absoluto */
+    top: 100%; /* Coloca o dropdown logo abaixo do link */
+    left: 0; /* Alinha o dropdown à esquerda do item */
+    background-color: #f9f9f9; /* Cor de fundo */
+    min-width: 160px; /* Largura mínima */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Sombra para o dropdown */
+    z-index: 1; /* Garante que o dropdown esteja acima de outros elementos */
+}
+
+/* Exibir o dropdown ao passar o mouse sobre o item */
+.w3-dropdown-click:hover .w3-dropdown-content {
+    display: block; /* Exibe o dropdown ao passar o mouse */
+}
+
+/* Ajustes para os itens dentro do dropdown */
+.w3-dropdown-content .w3-bar-item {
+    font-size: 13px; /* Tamanho da fonte para os itens do dropdown */
+    padding: 10px 16px; /* Padding ajustado */
+}
+
+/* Ajustes para o hover nos itens do dropdown */
+.w3-dropdown-content .w3-bar-item:hover {
+    background-color: #ddd; /* Alteração do fundo quando passa o mouse */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #5d5d5d;
+    padding: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #757975;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.w3-left {
+    float: left !important;
+}
+
+body {
+    background-image: url('homem-pensador.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.first-grid-text {
+    color: white !important;
+}
+
+.text-white {
+    color: white !important;
+}
+

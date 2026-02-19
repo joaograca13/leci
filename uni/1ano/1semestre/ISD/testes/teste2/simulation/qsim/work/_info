@@ -1,0 +1,149 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/graca/Desktop/teste2/simulation/qsim
+T_opt
+!s110 1734439700
+V]II=8<zO`RERdUE^C2i;h3
+04 18 4 work COUNT3_vlg_vec_tst fast 0
+=1-dc4546c5eddd-67617313-3d6-3734
+!s124 OEM10U2 
+Z2 o-quiet -auto_acc_if_foreign -work work -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2021.2;73
+T_opt1
+!s110 1734438877
+VB094j3zzFIBV]55G8lISe0
+04 16 4 work M3F3_vlg_vec_tst fast 0
+=1-dc4546c5eddd-67616fdd-e6-4ab0
+!s124 OEM10U3 
+R2
+R3
+n@_opt1
+R4
+R1
+vCOUNT3
+Z5 !s110 1734439699
+!i10b 1
+!s100 1E7SI7LY^bWX4;F7c9ZZH0
+IX4<I6PCRohoDEzgJi3h_L1
+R1
+w1734439698
+Z6 8125733.vo
+Z7 F125733.vo
+!i122 8
+L0 32 356
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z10 !s108 1734439699.000000
+Z11 !s107 125733.vo|
+Z12 !s90 -work|work|125733.vo|
+!i113 0
+Z13 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@c@o@u@n@t3
+vCOUNT3_vlg_vec_tst
+R5
+!i10b 1
+!s100 g5FPhZk<7zkjaGMJM?4<O3
+Ig5K5383e;Hk[`_g2:z3Zn3
+R1
+w1734439697
+Z14 8Waveform.vwf.vt
+Z15 FWaveform.vwf.vt
+!i122 9
+L0 30 78
+R8
+R9
+r1
+!s85 0
+31
+R10
+Z16 !s107 Waveform.vwf.vt|
+Z17 !s90 -work|work|Waveform.vwf.vt|
+!i113 0
+R13
+R3
+n@c@o@u@n@t3_vlg_vec_tst
+vhard_block
+Z18 !s110 1734438876
+!i10b 1
+!s100 d=4c7AoLKT7;Y5hz?ob]H3
+I1cMVVh=3^=gj9R[4SeXK[2
+R1
+Z19 w1734438875
+R6
+R7
+!i122 6
+L0 236 34
+R8
+R9
+r1
+!s85 0
+31
+Z20 !s108 1734438876.000000
+R11
+R12
+!i113 0
+R13
+R3
+vM3F3
+R18
+!i10b 1
+!s100 GUEMokN4ToKV8aj@MdoH>3
+IY4>emS^^R[:KhXC9M]f^`3
+R1
+R19
+R6
+R7
+!i122 6
+L0 32 203
+R8
+R9
+r1
+!s85 0
+31
+R20
+R11
+R12
+!i113 0
+R13
+R3
+n@m3@f3
+vM3F3_vlg_vec_tst
+R18
+!i10b 1
+!s100 4XYV9_<Oj6ROUVJ>AJ3o43
+IR`@0=PJ1aH7l4UYmVC9JM3
+R1
+R19
+R14
+R15
+!i122 7
+L0 30 60
+R8
+R9
+r1
+!s85 0
+31
+R20
+R16
+R17
+!i113 0
+R13
+R3
+n@m3@f3_vlg_vec_tst
